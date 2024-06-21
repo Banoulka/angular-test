@@ -1,0 +1,16 @@
+.quote {
+  position: relative;
+}
+
+.quote:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: -50px;
+  left: -55px;
+  height: 100px;
+  width: 100px;
+  background-size: contain;
+  background-blend-mode: multiply;
+  background-image: url("https://static.thenounproject.com/png/19279-200.png");
+}
